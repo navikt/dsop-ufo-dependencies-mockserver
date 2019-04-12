@@ -1,0 +1,9 @@
+version: "2.0"
+services:
+  
+  penws-pensjonsinfo:
+    image: penws-pensjonsinfo
+    build: .
+    ports:
+      - 9010:1090
+
