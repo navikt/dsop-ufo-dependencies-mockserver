@@ -133,7 +133,7 @@ public class Application {
 
         mockServer.when(HttpRequest.request()
                 .withMethod("GET")
-                .withPath("/sts"))
+                .withPath("/sts/token"))
                 .respond(
                         response()
                                 .withBody(new JsonBody("") {
